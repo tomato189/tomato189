@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" role="img" aria-labelledby="t d">
+<title id="t">At a glance</title>
+<desc id="d">Section heading: At a glance</desc>
+<defs>
+  <radialGradient id="fruit" cx="0.35" cy="0.3" r="0.85">
+    <stop offset="0" stop-color="#FF8A73"/>
+    <stop offset="0.45" stop-color="#FF5A45"/>
+    <stop offset="1" stop-color="#B92A19"/>
+  </radialGradient>
+  <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF5A45"/>
+    <stop offset="1" stop-color="#FFB347"/>
+  </linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF5A45" stop-opacity="0.9"/>
+    <stop offset="0.5" stop-color="#FFB347" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#FFB347" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="round"><rect width="1000" height="64" rx="26"/></clipPath>
+  
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+</defs>
+<rect x="0.5" y="0.5" width="999" height="63" rx="20" fill="#0B0D12" stroke="#222A3A"/><circle cx="34" cy="32" r="9" fill="url(#fruit)"/><text x="56" y="42" font-size="28" font-weight="800" fill="#F2F4F8" letter-spacing="-0.5">At a glance</text><rect x="28" y="54" width="944" height="2.5" rx="1.25" fill="url(#fade)"/></svg>
