@@ -1,27 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" role="img" aria-labelledby="t d">
 <title id="t">tomato186</title>
-<desc id="d">Footer with a small tomato emblem, the name tomato186, and a thank you line.</desc>
+<desc id="d">Footer: tomato186, thanks for stopping by.</desc>
 <defs>
-  <radialGradient id="fruit" cx="0.35" cy="0.3" r="0.85">
-    <stop offset="0" stop-color="#FF8A73"/>
-    <stop offset="0.45" stop-color="#FF5A45"/>
-    <stop offset="1" stop-color="#B92A19"/>
-  </radialGradient>
-  <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#FF5A45"/>
-    <stop offset="1" stop-color="#FFB347"/>
-  </linearGradient>
-  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#FF5A45" stop-opacity="0.9"/>
-    <stop offset="0.5" stop-color="#FFB347" stop-opacity="0.35"/>
-    <stop offset="1" stop-color="#FFB347" stop-opacity="0"/>
-  </linearGradient>
-  <clipPath id="round"><rect width="1000" height="200" rx="26"/></clipPath>
-  <radialGradient id="g1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FF5A45" stop-opacity="0.35"/><stop offset="1" stop-color="#FF5A45" stop-opacity="0"/></radialGradient>
-  <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
-    
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-  </style>
+<radialGradient id="shade" cx="0.34" cy="0.3" r="0.85">
+  <stop offset="0" stop-color="#fff" stop-opacity="0.42"/>
+  <stop offset="0.3" stop-color="#fff" stop-opacity="0.05"/>
+  <stop offset="0.62" stop-color="#000" stop-opacity="0"/>
+  <stop offset="1" stop-color="#3A0000" stop-opacity="0.45"/>
+</radialGradient>
+
+<style>
+text { font-family: 'Inter', 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+.serif { font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.flesh { fill: #F2452E; } .bob { animation: bob 6s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
 </defs>
-<g clip-path="url(#round)"><rect width="1000" height="200" fill="#0B0D12"/><ellipse cx="500" cy="210" rx="520" ry="120" fill="url(#g1)"/><path d="M0 150 C160 120 300 180 500 150 C700 120 840 180 1000 140" fill="none" stroke="url(#warm)" stroke-width="2.5" opacity="0.8"/><path d="M0 166 C160 136 300 196 500 166 C700 136 840 196 1000 156" fill="none" stroke="#FFB347" stroke-opacity="0.2" stroke-width="1.5"/></g><rect x="0.5" y="0.5" width="999" height="199" rx="26" fill="none" stroke="#222A3A"/><g class="" transform="translate(500 62)"><ellipse cx="0" cy="1.6" rx="26" ry="23.9" fill="url(#fruit)"/><ellipse cx="-9.9" cy="-10.9" rx="7.8" ry="4.4" fill="#fff" opacity="0.28" transform="rotate(-30 -9.9 -10.9)"/><path d="M0 -20.8 q1.0 -6.8 5.2 -9.4" fill="none" stroke="#2F8F52" stroke-width="2.0" stroke-linecap="round"/><g transform="translate(0 -20.8) rotate(-76)"><path d="M0 0 C4.2 1.6 4.2 7.8 0 13.5 C-4.2 7.8 -4.2 1.6 0 0Z" fill="#5BC27A" stroke="#2F8F52" stroke-width="1"/></g><g transform="translate(0 -20.8) rotate(-38)"><path d="M0 0 C4.2 1.6 4.2 7.8 0 13.5 C-4.2 7.8 -4.2 1.6 0 0Z" fill="#5BC27A" stroke="#2F8F52" stroke-width="1"/></g><g transform="translate(0 -20.8) rotate(0)"><path d="M0 0 C4.2 1.6 4.2 7.8 0 13.5 C-4.2 7.8 -4.2 1.6 0 0Z" fill="#5BC27A" stroke="#2F8F52" stroke-width="1"/></g><g transform="translate(0 -20.8) rotate(38)"><path d="M0 0 C4.2 1.6 4.2 7.8 0 13.5 C-4.2 7.8 -4.2 1.6 0 0Z" fill="#5BC27A" stroke="#2F8F52" stroke-width="1"/></g><g transform="translate(0 -20.8) rotate(76)"><path d="M0 0 C4.2 1.6 4.2 7.8 0 13.5 C-4.2 7.8 -4.2 1.6 0 0Z" fill="#5BC27A" stroke="#2F8F52" stroke-width="1"/></g></g><text x="500" y="124" text-anchor="middle" font-size="34" font-weight="800" fill="#F2F4F8" letter-spacing="-1">tomato186</text><text x="500" y="182" text-anchor="middle" font-size="15" fill="#8A93A6">Thanks for stopping by.</text></svg>
+<clipPath id="ft"><rect x="0" y="0" width="1000" height="170" rx="28"/></clipPath><g class="" style="animation-delay:0.00s"><rect x="0" y="0" width="1000" height="170" rx="28" fill="#1E1530"/><g clip-path="url(#ft)"><circle cx="900" cy="60" r="130" fill="#BCA8F7" fill-opacity="0.1"/><text x="36" y="96" font-size="66" font-weight="900" fill="#FFF3E0" letter-spacing="-3">tomato186</text><text x="38" y="136" font-size="24" class="serif" fill="#F6D86B">Thanks for stopping by.</text><g transform="translate(884 86)"><g class="bob"><ellipse class="flesh" cx="0" cy="2.3" rx="38" ry="35.0"/><ellipse cx="0" cy="2.3" rx="38" ry="35.0" fill="url(#shade)"/><path d="M0 -30.4 q1.5 -9.9 7.6 -13.7" fill="none" stroke="#7BE0A8" stroke-width="2.3" stroke-linecap="round"/><g transform="translate(0 -30.4) rotate(-76)"><path d="M0 0 C6.1 2.3 6.1 11.4 0 19.8 C-6.1 11.4 -6.1 2.3 0 0Z" fill="#7BE0A8" stroke="#1F7A52" stroke-width="1.2"/></g><g transform="translate(0 -30.4) rotate(-38)"><path d="M0 0 C6.1 2.3 6.1 11.4 0 19.8 C-6.1 11.4 -6.1 2.3 0 0Z" fill="#7BE0A8" stroke="#1F7A52" stroke-width="1.2"/></g><g transform="translate(0 -30.4) rotate(0)"><path d="M0 0 C6.1 2.3 6.1 11.4 0 19.8 C-6.1 11.4 -6.1 2.3 0 0Z" fill="#7BE0A8" stroke="#1F7A52" stroke-width="1.2"/></g><g transform="translate(0 -30.4) rotate(38)"><path d="M0 0 C6.1 2.3 6.1 11.4 0 19.8 C-6.1 11.4 -6.1 2.3 0 0Z" fill="#7BE0A8" stroke="#1F7A52" stroke-width="1.2"/></g><g transform="translate(0 -30.4) rotate(76)"><path d="M0 0 C6.1 2.3 6.1 11.4 0 19.8 C-6.1 11.4 -6.1 2.3 0 0Z" fill="#7BE0A8" stroke="#1F7A52" stroke-width="1.2"/></g></g></g></g></g></svg>
